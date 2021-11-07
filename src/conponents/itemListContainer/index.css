@@ -1,0 +1,16 @@
+.greetings {
+    background-color: black;
+    width: 80vw;
+    height: auto;
+    margin: auto;
+    margin-top: 5rem;
+}
+
+.greetings h1 {
+    max-width: 90%;
+    max-height: 90%;
+    color: white;
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+    font-size: 54pt;
+}
