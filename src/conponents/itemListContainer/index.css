@@ -4,13 +4,9 @@
     height: auto;
     margin: auto;
     margin-top: 5rem;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
 
-.greetings h1 {
-    max-width: 90%;
-    max-height: 90%;
-    color: white;
-    font-family: 'Oswald', sans-serif;
-    text-align: center;
-    font-size: 54pt;
-}
