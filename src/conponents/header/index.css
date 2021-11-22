@@ -9,6 +9,11 @@
     justify-content: space-between;
 }
 
+.headder-wrapper a {
+    color: white;
+}
+
+
 .logo-wrapper img {
     width: 80px;
     display: inline-block;

@@ -1,16 +1,26 @@
 import './App.css';
 import { Header } from "./conponents/header/Header"
 import {ItemListContainer} from "./conponents/itemListContainer/itemListContainer"
-import {ItemCount} from "./conponents/itemCount/ItemCount"
+import {ItemDetailContainer} from "./conponents/ItemDetailContainer/ItemDetailContainer"
+import {BrowserRouter , Routes , Route } from "react-router-dom"
 
 function App() {
     return (
-        <>
-            <Header />
-            <ItemListContainer Name="Bienvenidos" />
 
-            
-        </>
+        <BrowserRouter>
+            <Header />
+            <Routes>
+                    <Route path="/" element={<ItemListContainer />} />
+
+                    <Route path="/category/:catId" element={<ItemListContainer />} />
+
+                    <Route path="/product/:prodId" element={<ItemDetailContainer />} />
+
+
+
+            </Routes>
+        </BrowserRouter>
+    
     );
 }
 
