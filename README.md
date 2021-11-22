@@ -31,3 +31,8 @@ Uso de react router dom para la navegacion
 
 ![Navigation](https://github.com/seeacid/martinez-rjs-project/blob/main/navigation.gif)
 
+
+Autor : Fabian Martinez 
+
+Curso ReactJs Coderhouse 2021
+
